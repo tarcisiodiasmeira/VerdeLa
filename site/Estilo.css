@@ -1,0 +1,214 @@
+
+*{
+    margin: 0px  ;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    text-align: center;
+}
+#logo{
+    margin-left: 200px;
+    height: 150px;
+    width: 180px;
+}
+#topo{
+    height: 140px;
+    background-color: rgb(84, 112, 56);
+    display: flex;
+    
+}
+.imagens{
+    margin: 0;
+    width: 1000px;
+    height: 600px;
+}
+#tipos{
+    width: 1200px;
+    margin: 0 100px;
+   
+}
+#separa{
+    display: flex;
+    justify-content: baseline;
+    text-align: end;
+    gap: 250px;
+}
+#descricoes{
+    display: flex;
+    text-align: end;
+    margin-bottom: 30px; ;
+    gap: 50px;
+    align-items: end;
+    font-size: 20px;
+    text-decoration: none;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(3, 238, 3);
+}
+#bemvindo{
+    background-color: rgb(84, 112, 56);
+    background-image: url(./imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: grid;
+    width: auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#jardineiro{
+    margin-top: 0px;
+    margin-left: 60px;
+}
+#manutencao{
+    background-color: rgb(84, 112, 56);
+    height: 100px;
+    color: aliceblue;
+    width: auto;
+    align-items: center;
+    font-size: 2em;
+}
+#adiquirir{
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    margin: 30px auto;
+    margin-bottom: 100px;
+}
+h3{
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    background-color: green;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+#comprar{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 400px;
+    margin: 3px auto;
+    gap: 150px;
+}
+#tiposdecompra{
+    display: flex;
+    margin: 10px auto;
+    width: 800px;
+    gap: 150px;
+}
+#obter{
+    margin: 0px 10px;
+   
+}
+.branco{
+    color: aliceblue;
+    
+}
+#titulo{
+   
+    width: 650px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+#Proficionaiss{
+    font-size: 20px;
+    font-family: paz;
+}
+#platesua{
+    font-size: 110px;
+    width: 750px;
+}
+#manu{
+    background-image: url(./imagens/Rectangle\ 26.png);
+    height: 100px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+.linha{
+    display: flex;
+}
+#padrao{
+    width: 100%;
+    gap: 20px;
+}
+.comeco{
+    margin: 10px;
+}
+.ponta{
+    text-align: left;
+    width: 200px;
+    margin: 1px 30px;
+    height: 200px;
+}
+.tamanhoo{
+    width: 400px;
+    text-align: start;
+    align-items: start;
+    justify-content: flex-start;
+    justify-items: start;
+}
+#historia{
+    background-image: url(./imagens/Rectangle\ 27.png);
+    height: 100px;
+    margin:  20px 0px;
+}
+#fonte{
+    font-size: 60px;
+    margin-top: 15px;
+}
+#histo{
+    width: 500px;
+    margin: 200px 70px;
+}
+#juntar{
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+#img2{
+    margin-left: 100px;
+}
+footer{
+    background-image: url(./imagens/Rectangle\ 27.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:300px;
+   
+}
+
+#icones{
+    
+    align-items: center;
+}
+
+#carinha{
+    justify-self: end;
+    align-self: flex-end;
+    margin-right: 100px;
+}
+
+#num{
+    margin: 10px 20px;
+   display: flex;
+   
+}
+#insta{
+    margin: 10px 20px;
+    display: flex;
+}
+#vaicomcalma{
+    height: 80px;
+    width: 250px;
+    margin-bottom: 70px;
+}

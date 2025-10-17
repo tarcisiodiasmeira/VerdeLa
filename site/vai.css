@@ -1,0 +1,63 @@
+@font-face {
+    font-family:esse ;
+    src: url(./imagens/Adventure.otf);
+}
+*{
+    margin: 0px;
+}
+form{
+    text-align: center;
+    padding: 10px;
+}
+input{
+    height: 40px;
+    width: 200px;
+}
+::placeholder{
+    font-size: 16px;
+}
+#vc{
+    width: 400px;
+    text-shadow: 4px 2px black;
+    font-family: esse;
+    text-align: center;
+    color: aliceblue;
+    margin: 0px auto;
+}
+#divo{
+    background-image: url(./imagens/Group\ 7.png);
+    background-size: cover;
+    height: 800px;
+}
+#topo{
+    height: 140px;
+    background-color: rgb(84, 112, 56);
+    display: flex;
+}
+#logo{
+    margin-left: 150px;
+    height: 150px;
+    width: 180px;
+}
+#descricoes{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 60px;
+    gap: 40px;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(3, 238, 3);
+}
+#central{
+    margin: 200px auto;
+    width: 600px;
+    text-align: center;
+    display: flex;
+}
