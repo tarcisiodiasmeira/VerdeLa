@@ -78,8 +78,8 @@ a:hover{
     display: flex;
     max-width: 1000px;
     align-items: center;
-    justify-content: space-around;
-    gap: 70px;
+    justify-content:space-around;
+    gap: 180px;
     margin: 30px auto;
     margin-bottom: 100px;
 }
@@ -112,6 +112,9 @@ h3{
 .branco{
     color: aliceblue;
     
+}
+#padrao{
+    justify-content: baseline;
 }
 #titulo{
    
