@@ -1,0 +1,94 @@
+
+*{
+    margin: 0px  ;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    text-align: center;
+}
+#formulario{
+    color: aliceblue;
+    margin: 0px auto;
+
+}
+
+.butao{
+    background-color:bisque;
+    color: black;
+    border-radius: 20px;
+    transition: 0.3s;
+    padding: 5px;
+    border: black solid 2px;
+  }
+  .butao:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+a:hover{
+    color:rgb(3, 238, 3);
+}
+#crescer{
+    padding: 10px;
+}
+#fundo{
+    background-image: url(./imagens/fundo.png);
+}
+#obgd{
+    color: aliceblue;
+}
+#logo{
+    margin-left: 200px;
+    height: 150px;
+    width: 180px;
+}
+#topo{
+    height: 140px;
+    background-color: rgb(84, 112, 56);
+    display: flex;
+}
+.imagens{
+    margin: 0;
+    width: 1000px;
+    height: 600px;
+}
+#tipos{
+    width: auto;
+    margin: 0 100px;
+   
+}
+#descricoes{
+    display: flex;
+    text-align: end;
+    margin-bottom: 30px; ;
+    gap: 50px;
+    align-items: end;
+    font-size: 20px;
+    text-decoration: none;
+}
+#separa{
+    display: flex;
+    justify-content: baseline;
+    text-align: end;
+    gap: 250px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.3s;
+}
+@media screen and (max-width:800px){
+    
+#logo{
+    margin-left: 10px;
+    height: 140px;
+    width: 150px;
+}
+#descricoes{
+    gap: 20px;
+    font-size: 16px;
+}
+#separa{
+    gap: 80px;
+}
+}

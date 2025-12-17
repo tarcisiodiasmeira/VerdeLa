@@ -5,6 +5,7 @@
 *{
     margin: 0px;
 }
+
 #topo{
     height: 140px;
     background-color: rgb(84, 112, 56);
@@ -67,4 +68,53 @@ a:hover{
     font-family: venhe;
     color: rgb(41, 185, 101);
     text-shadow: 2px 2px black;
+}
+#paisagem{
+    width: 500px;
+}
+@media  screen and (max-width:800px){
+#quemsomos{
+    font-size: 16px;
+}
+    #logo{
+    margin-left: 10px;
+    height: 110px;
+    width: 120px;
+}
+#descricoes{
+    gap: 20px;
+    font-size: 16px;
+    margin-left: 60px;
+}
+#separa{
+    gap: 80px;
+}
+#sobre{
+    width: 400px;
+    height: auto;
+}
+#paisagem{
+    width: 350px;
+}
+}
+@media  screen and (max-width:500px) {
+    #nos{
+        display: contents;
+    }
+    #topo{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #sobre{
+        font-size: 20px;
+        width: 400px;
+    }
+    #descricoes{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    #paisagem{
+        width: 100%;
+    }
 }

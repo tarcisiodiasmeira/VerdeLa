@@ -61,3 +61,18 @@ a:hover{
     text-align: center;
     display: flex;
 }
+@media screen and (max-width:900px){
+    #logo{
+        margin-left: 10px;
+        height: 140px;
+        width: 150px;
+    }
+    #descricoes{
+        gap: 20px;
+        font-size: 16px;
+        margin-left: 70px;
+    }
+    #separa{
+        gap: 80px;
+    }
+}
